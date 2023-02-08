@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* header section */
+
+.possible-all {
+  width: 100%;
+  height: 700px;
+  background-image: url("../img/banner/banner3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.possible-thinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+.possible-title {
+  font-size: 65;
+  font-weight: 700;
+  margin: 220px 100px 20px 845px;
+  text-align: right;
+  text-transform: capitalize;
+  color: white;
+}
