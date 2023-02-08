@@ -110,3 +110,28 @@ li {
 .plans-desc {
   color: #757575;
 }
+
+/* positive mindset section */
+.positive {
+  width: 900px;
+  height: 250px;
+  margin-left: 190px;
+  margin-bottom: 100px;
+  background: url("../img/watch.png"), #c5daeb;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.positive-mindset {
+  display: flex;
+  flex-direction: column;
+}
+.positive-title {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 600px;
+}
