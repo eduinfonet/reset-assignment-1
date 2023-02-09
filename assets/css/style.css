@@ -65,9 +65,11 @@
 }
 
 li {
-  /* list-style-position: inside; */
-  list-style-image: url("assets/img/icons/download.png");
-  color: #444343;
+  list-style: none;
+}
+
+.fa-solid {
+  color: #005fac;
 }
 
 .failor-title {
@@ -117,7 +119,7 @@ li {
   height: 250px;
   margin-left: 190px;
   margin-bottom: 100px;
-  background: url("../img/watch.png"), #c5daeb;
+  background: url("../img/watch.png"), url("../img/gradient1.png");
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   border-radius: 10px;
@@ -134,4 +136,14 @@ li {
   padding-top: 100px;
   padding-left: 50px;
   padding-right: 600px;
+}
+
+.positive-button {
+  margin-top: 10px;
+  margin-left: 50px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  color: #005fac;
+  font-size: 20px;
 }
